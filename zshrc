@@ -5,6 +5,8 @@ plugins=(git)
 
 eval $(thefuck --alias)
 
+export PATH="$PATH:$HOME/.bin"
+
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export EDITOR="vim"
