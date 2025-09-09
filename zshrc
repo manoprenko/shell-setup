@@ -1,5 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+
 ZSH_THEME="bira"
 plugins=(git virtualenv)
 
